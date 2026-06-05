@@ -37,15 +37,7 @@ Service Encrypts Actual Data
 
 ---
 
-# Important Interview Question
 
-## Does KMS Encrypt Data Directly?
-
-### Answer: No
-
-KMS is NOT designed to encrypt large amounts of data directly.
-
-Instead, AWS uses:
 
 # Envelope Encryption
 
@@ -712,11 +704,7 @@ Understanding this concept explains almost every KMS integration in AWS.
 
 ---
 
-# Final Interview Answer
 
-### Does KMS Encrypt a 100 GB File?
-
-No.
 
 ```text
 KMS Key
